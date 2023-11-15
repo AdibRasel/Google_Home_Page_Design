@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* background-color: #FFFFFF; */
+}
+
+
+/* ================= start header ============= */
+.header {
+    text-align: right;
+    padding: 20px;
+}
+
+.header ul {}
+
+.header ul li {
+    display: inline;
+}
+
+.header ul li a {
+    text-decoration: none;
+    font-size: 18px;
+    padding-right: 10px;
+    color: rgba(0, 0, 0, .87);
+}
+
+.Dot_img {
+    width: 18px;
+    transition: 1000ms;
+    /* padding: 5px;
+    border-radius: 50%; */
+}
+
+.user_icon {
+    width: 22px;
+    transition: 1000ms;
+    /* padding: 5px; */
+    /* border-radius: 50%; */
+}
+
+/* .user_icon:hover{
+    background-color: #d3d3d3;
+
+}
+.Dot_img:hover{
+    background-color: #d3d3d3;
+
+} */
+
+/* ================= end header ============= */
+
+
+
+
+
+
+
+
+
+
+
+/* ================= start body ================ */
+.body {
+    text-align: center;
+    width: 500px;
+    margin: auto;
+    margin-bottom: 220px;
+}
+
+.logo {}
+
+.logo img {
+    margin-bottom: 30px;
+}
+
+.search_box {
+    border: 1px solid #818080;
+    border-radius: 10px;
+}
+
+.search_box label {
+    font-size: 18px;
+    color: #4285f4;
+    padding: 5px;
+}
+
+.input {
+    border-radius: 5px;
+    width: 75%;
+    border: 0;
+    padding: 10px;
+    margin: 5px;
+}
+
+.input:focus {
+    border: 1px solid red;
+    /* color: red; */
+}
+
+.TextBox {
+    margin-top: 15px;
+}
+
+.TextBox span {
+    background: #F8F9FA;
+    padding: 10px;
+    border-radius: 5px;
+    color: #5a5a5a;
+    font-size: 19px;
+    margin: 5px;
+}
+
+.bangla {
+    margin-top: 10px;
+    font-size: 19px;
+}
+
+/* ================= end body ================ */
+
+
+
+
+
+
+
+
+
+
+/* ================ start footer =============== */
+.footer {
+    background-color: #F2F2F2;
+}
+
+.footer p {
+    padding: 30px;
+    color: #7a7a7a;
+    font-size: 16px;
+}
+.d-flex{
+    display: flex;
+}
+.footer_left {
+    padding: 20px;
+}
+
+.footer_left span {
+    padding: 10px;
+    color: #7a7a7a;
+    font-size: 16px;
+}
+
+.footer_right {
+    padding: 20px;
+    margin-left: auto;
+}
+
+.footer_right span {
+    padding: 10px;
+    color: #7a7a7a;
+    font-size: 16px;
+}
+
+/* ================ end footer =============== */
